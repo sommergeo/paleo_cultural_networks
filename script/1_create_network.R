@@ -86,4 +86,4 @@ lor <- lor %>%
 
 saveRDS(lor, file='../work/lor7.rds')
 lor <- readRDS(file='../work/lor7.rds')
-st_write(lor, dsn="../work/relationships.gpkg", layer='relationships', layer_options = "OVERWRITE=YES", delete_dsn = TRUE )
+st_write(lor, dsn="../results/relationships.gpkg", layer='relationships', layer_options = "OVERWRITE=YES", delete_dsn = TRUE )
