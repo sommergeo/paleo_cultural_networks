@@ -1,6 +1,7 @@
 library(tidyverse)
 library(sf)
 library(cowplot)
+library(ggdark)
 
 data <- readRDS('work/lor7.rds') %>% select(-c(geometry, opacity))
 
@@ -119,3 +120,20 @@ plt1
 ggsave("results/fig_3.png", units="cm", width=18, height=18, dpi=300)
 ggsave("results/fig_3.tiff", units="cm", width=18, height=18, dpi=300)
 ggsave("results/fig_3.eps", units="cm", width=18, height=18, dpi=300)
+
+# Plot Jaccard distribution
+library(ggridges)
+data_selected %>%
+  mutate(connection = factor(connection, levels = c('African Acheulean', 'Levantine Acheulean', 'European Acheulean', 'Howiesons Poort', 'Aterian', 'Micoquian', 'Early Later Stone Age', 'Gravettian', 'Initial Upper Paleolithic', 'Middle Stone Age', 'Between MSA and MP', 'Middle Paleolithic'))) %>%
+  ggplot(aes(x=jaccard, y=connection, fill=connection))+
+  geom_density_ridges2()+
+  scale_fill_manual(values=c('#f35a7b', '#ffbd65', '#ffe565', '#ccff66','#66ff66', '#66ffff', '#70c3ff', '#8f78ff','#e668ff', '#fb7050', '#707073', '#73b2d8'), guide='none')+
+  scale_color_manual(values=c('#f35a7b', '#ffbd65', '#ffe565', '#ccff66','#66ff66', '#66ffff', '#70c3ff', '#8f78ff','#e668ff', '#fb7050', '#707073', '#73b2d8'), guide='none')+
+  scale_x_continuous(breaks=seq(0,1,0.1))+
+  theme_classic()+
+  labs(x="Similarity [Jaccard Index]", y="" , caption = "") + 
+  theme(text=element_text(size=10))
+
+ggsave("results/fig_S1.png", units="cm", width=18, height=18, dpi=300)
+ggsave("results/fig_S1.tiff", units="cm", width=18, height=18, dpi=300)
+ggsave("results/fig_S1.eps", units="cm", width=18, height=18, dpi=300)

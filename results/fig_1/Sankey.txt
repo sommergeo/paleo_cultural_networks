@@ -1,0 +1,27 @@
+https://sankeymatic.com/build/
+
+' Type a list of Flows between Nodes, like:
+'     Source [AMOUNT] Target
+' Examples:
+Max. links [245215604] different sites #A51E37
+Max. links [1871357] same site #32414B
+
+different sites [66501664] contemporaneous #A51E37
+different sites [178713940] non-contemporaneous #32414B
+
+contemporaneous[33250832] non-duplicates #A51E37
+contemporaneous[33250832] duplicates #32414B
+
+non-duplicates [3506065] similar #A51E37
+non-duplicates [29744767] non-similar #32414B
+
+: Max. links #A51E37
+: different sites #A51E37
+: contemporaneous #A51E37
+: non-duplicates #A51E37
+: similar #A51E37
+
+: same site #32414B
+: non-contemporaneous #32414B
+: duplicates #32414B
+: non-similar #32414B 
