@@ -1,0 +1,26 @@
+{
+    "id": "6C9591B5",
+    "path": "D:/SOMMER/git/paleo_cultural_networks/script/3_stats_dark.R",
+    "project_path": "script/3_stats_dark.R",
+    "type": "r_source",
+    "hash": "936785846",
+    "contents": "",
+    "dirty": false,
+    "created": 1659540669747.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "142,76",
+        "scrollLine": "128"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1659627011,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1659627011952,
+    "read_only": false,
+    "read_only_alternatives": []
+}

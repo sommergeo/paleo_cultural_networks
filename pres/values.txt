@@ -1,0 +1,35 @@
+# MSA
+Low: 103,0,13 High: 255,245,240
+
+# MP
+Low: 8,48,107 High: 247,251,255
+
+# MSA vs. MP
+Low: 51,51,51 High: 230,230,230
+
+# Acheulean Africa
+Low: 102,0,22 High: 243,90,123
+
+# Acheulean Europe
+Low: 102,83,0 High: 255,229,101
+
+# Acheulean Levant
+Low: 102,58,0 High: 255,189,101
+
+# Micoquian
+Low: 1,102,102 High: 102,255,255
+
+# Aterian
+Low: 0,102,0 High: 102,255,102
+
+# Howiesons Poort
+Low: 68,102,0, High: 204,255,102
+
+# Initial Upper Paleolithic
+Low: 85,2,102 High: 230,104,255
+
+# Gravettian:
+Low: 6,2,26 High: 143,120,255
+
+# Early Later Stone Age:
+Low: 1,16,26 High: 112,195,255
