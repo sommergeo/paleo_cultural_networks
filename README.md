@@ -1,6 +1,7 @@
 # paleo_cultural_networks
  
-This repository contains reproducible data and code for the publication Sommer, C., Kandel, A. & Hochschild, V. (2022): "The use of perhistoric 'Big Data' for mapping early human cultural networks".
+This repository contains reproducible data and code for the publication 
+> Christian Sommer, Andrew W. Kandel & Volker Hochschild (2022): The use of prehistoric ‘big data’ for mapping early human cultural networks, Journal of Maps, DOI: [10.1080/17445647.2022.2118628](https://doi.org/10.1080/17445647.2022.2118628) 
 
 While this repository includes all input data and allows to reproduce all analytical steps, it does not contain the final results and intermediary datasets due to Github's file size restrictions. A complete dataset with input, code and outputs is permanently available on Zenodo under a CC BY 4.0 license:
 
