@@ -1,0 +1,2 @@
+rasterlist <- list.files('D:/SOMMER/Abschlussarbeiten/Travnicek/ASC_Dateien', full.names=T, pattern='.asc$')
+rasterstack <- stack(rasterlist)
